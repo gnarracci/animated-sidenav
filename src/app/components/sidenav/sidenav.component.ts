@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { navbarData } from './nav-data';
+import {faTimes} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-sidenav',
@@ -8,7 +9,8 @@ import { navbarData } from './nav-data';
 })
 export class SidenavComponent {
 
-  collapsed = false;
+  collapsed = true;
   navData = navbarData;
+  faTimes = faTimes;
 
 }
