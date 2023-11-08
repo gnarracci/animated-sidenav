@@ -45,7 +45,7 @@
     background-color: transparent;
     border: none;
 
-      .fa-times{
+      .faTimes{
         color: #fff;
         font-size: 24px;
       }
@@ -76,7 +76,8 @@
       height: 3rem;
       color: #f3f3f3;
       text-decoration: none;
-      transition: color .3s ease;
+      border-radius: 0.625rem;
+      transition: all .3s ease;
 
       .sidenav-link-icon {
         font-size: 22px;
@@ -90,6 +91,13 @@
         margin-left: 1.5rem;
 
       }
+    }
+  }
+
+  .sidenav-nav-item:hover {
+    .sidenav-nav-link {
+      background: #fff;
+      color: #000;
     }
   }
 }

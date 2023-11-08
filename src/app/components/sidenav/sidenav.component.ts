@@ -11,6 +11,15 @@ export class SidenavComponent {
 
   collapsed = true;
   navData = navbarData;
-  faTimes = faTimes;
+
+  toggleCollapse(): void {
+    this.collapsed = !this.collapsed;
+  }
+
+  closeSidebar(): void {
+    this.collapsed = false;
+  }
+
+
 
 }
