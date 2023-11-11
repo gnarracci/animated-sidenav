@@ -37,6 +37,7 @@
 
   }
   .btn-close {
+    color: #fff;
     margin-left: auto;
     cursor: pointer;
     width: 2rem;
@@ -44,16 +45,11 @@
     border-radius: 50%;
     background-color: transparent;
     border: none;
-
-      .faTimes{
-        color: #fff;
-        font-size: 24px;
-      }
   }
 }
 
 .sidenav-collapsed {
-  width: 15.5625rem;
+  width: 16.5625rem;
 }
 
 .sidenav-nav {
